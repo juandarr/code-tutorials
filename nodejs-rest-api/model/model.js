@@ -5,7 +5,7 @@ const devCredits = new mongoose.Schema({
         type: Number,
         required: true, 
     },
-    name: {
+    id: {
         type: String,
         required: true,
     },
